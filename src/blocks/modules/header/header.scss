@@ -1,0 +1,75 @@
+/******Start header*******/
+.header .bg_main_2 {
+    background-color: $color_main_2;
+    background-image: url("../img/bg_wide.png");
+}
+
+.header span,
+.header a {
+    color: $color_text_btn_white;
+    font-family: Regular;
+    font-size: 20px;
+    padding: 20px 0;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.header span {
+    margin-right: 5px;
+}
+
+.header .login::after {
+    content: "";
+    width: 3px;
+    height: 17px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.header .navbar {
+    background-color: $color_main_1;
+}
+
+.header .navigation {
+    display: block;
+    width: 100%;
+}
+
+.header .navbar ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+.header .navbar ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.header .navbar ul li a {
+    padding: 10px 18px;
+    text-transform: uppercase;
+}
+
+.header .navbar ul li::after {
+    content: "";
+    border-right: 3px solid white;
+    border-radius: 3px;
+}
+
+.header .navbar ul li:last-child::after {
+    content: "";
+    display: none;
+}
+
+.header .navbar ul li a:hover {
+    background-color: $color_bg_btn_hover;
+    color: $color_text_btn_colorized;
+}
+
+.header .navbar ul li:hover::after {
+    content: "";
+    border-right: 3px solid transparent;
+}
+
+/******End header*******/
