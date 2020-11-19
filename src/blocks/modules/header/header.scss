@@ -38,6 +38,7 @@
 
 .header .navbar ul {
     padding-left: 0;
+    display: inline-block;
     margin: 0;
 }
 
@@ -70,6 +71,15 @@
 .header .navbar ul li:hover::after {
     content: "";
     border-right: 3px solid transparent;
+}
+
+.header_top {
+    @media screen and (max-width: 1199px) {
+        .tablet {
+            text-align: center;
+        }
+    }
+
 }
 
 /******End header*******/
